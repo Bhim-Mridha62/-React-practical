@@ -16,7 +16,7 @@ import jsconfigPaths from 'vite-jsconfig-paths';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: './',
+  base: '/',
   plugins: [react(), jsconfigPaths(), macrosPlugin()],
   define: {
     // this is for the getting the env variable from the .env
